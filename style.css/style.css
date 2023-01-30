@@ -1,10 +1,14 @@
 
 body{
     margin: 0;
+    
+}
+header{
+    padding: 0s;
 }
 
 /* background logo */
-.container{
+header{
     background-image: url("../img/pattern.png");
     background-color: aqua;
     background-size: contain;
@@ -13,14 +17,26 @@ body{
     width: 100%;
 }
 
+main{
+     margin-left: 10%;
+     margin-right: 10%;
+    position: relative;
+     
+}
+
+footer{
+    margin-left: 10%;
+    margin-right: 10%;
+}
 .logo{
-    width: 200px;
+    width: 300px;
     height: 100px;
     
  
 }
 .logo img{
     margin-top: 50px;
+    margin-left: 80px;
 }
 
 span{ 
@@ -29,6 +45,8 @@ span{
 /* colore header table */
 .blue{
     background-color: blue;
+    color: #fff;
+    
 }
 /* colore cele table */
 .aqua{
@@ -37,11 +55,9 @@ span{
 
 .info{
     color: lightgrey;
+    
 }
 
-footer{
-    margin: auto;
-}
 
 .mini{
     color:  #fff;
@@ -61,10 +77,15 @@ footer{
     position: absolute;
     margin: auto;
     top: 10px;
-    tex
+}
+
+ul{ 
+    padding: 15px;
     
 }
 
-h1 .info{
-    margin: 80px;
+th{
+    width: 400px;
+    text-align: left;
+    height: 30px;
 }
