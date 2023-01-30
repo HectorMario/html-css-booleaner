@@ -1,10 +1,7 @@
-
+/* margine body */
 body{
     margin: 0;
     
-}
-header{
-    padding: 0s;
 }
 
 /* background logo */
@@ -16,24 +13,42 @@ header{
     position: relative;
     width: 100%;
 }
-
-main{
-     margin-left: 10%;
-     margin-right: 10%;
-    position: relative;
-     
-}
-
-footer{
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
+/* posizionamento logo */
 .logo img{
     margin-top: 50px;
     margin-left: 10%;
     width: 200px;
     height: 100px;
+}
+/* margine main */
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    
+}
+/* informazione degli scritori */
+.info{
+    color: lightgrey;
+    line-height: 0;
+    margin-bottom: 40px;
+    margin-top: 0;
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+
+/* riferimenti dell´imagine */
+.refe{
+    align-items: center;
+    line-height: 0;
+    margin-bottom: 40px;
+    font-size: small;
 }
 
 span{ 
@@ -49,15 +64,22 @@ span{
 .aqua{
     background-color: aqua;
 }
-
-.info{
-    color: lightgrey;
-    line-height: 0;
-    margin-bottom: 40px;
-    margin-top: 0;
+ul{ 
+    padding: 15px;
     
 }
 
+th{
+    width: 400px;
+    text-align: left;
+    height: 30px;
+}
+
+/* margine footer */
+footer{
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
 .mini{
     color:  #fff;
@@ -79,29 +101,8 @@ span{
     top: 10px;
 }
 
-ul{ 
-    padding: 15px;
-    
-}
 
-th{
-    width: 400px;
-    text-align: left;
-    height: 30px;
-}
-
-.refe{
-    align-items: center;
-    line-height: 0;
-    margin-bottom: 40px;
-    font-size: small;
-}
 
 .mini h2{
     width: 300px;
-}
-
-a{
-    text-decoration: none;
-    color: blue;
 }
