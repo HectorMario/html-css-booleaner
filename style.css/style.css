@@ -1,0 +1,70 @@
+
+body{
+    margin: 0;
+}
+
+/* background logo */
+.container{
+    background-image: url("../img/pattern.png");
+    background-color: aqua;
+    background-size: contain;
+    margin: 0;
+    position: relative;
+    width: 100%;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    
+ 
+}
+.logo img{
+    margin-top: 50px;
+}
+
+span{ 
+    background-color: gold;
+}
+/* colore header table */
+.blue{
+    background-color: blue;
+}
+/* colore cele table */
+.aqua{
+    background-color: aqua;
+}
+
+.info{
+    color: lightgrey;
+}
+
+footer{
+    margin: auto;
+}
+
+.mini{
+    color:  #fff;
+    width: 200px;
+    height: 200px;
+}
+
+#viola{
+    position: relative;
+}
+
+#nero{
+    position: relative;
+}
+
+.text{ 
+    position: absolute;
+    margin: auto;
+    top: 10px;
+    tex
+    
+}
+
+h1 .info{
+    margin: 80px;
+}
